@@ -1,0 +1,31 @@
+{
+  "project_info": {
+    "project_number": "544546760606",
+    "firebase_url": "https://word-canvas-609b2-default-rtdb.firebaseio.com",
+    "project_id": "word-canvas-609b2",
+    "storage_bucket": "word-canvas-609b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544546760606:android:ec2bb29d70fa41a9b3988f",
+        "android_client_info": {
+          "package_name": "com.showcai.puzzle.game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3QAw_pW5TLRCcoDkAsmgvV2JESew5GvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "admob_app_id": "ca-app-pub-7669873379508876~7935159638"
+    }
+  ],
+  "configuration_version": "1"
+}
