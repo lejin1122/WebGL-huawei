@@ -16,10 +16,8 @@
     <type fullname="Compliment" preserve="all" />
     <type fullname="DailySignProgress" preserve="all" />
     <type fullname="DictionaryHeader" preserve="all" />
-    <type fullname="FacebookManager" preserve="all" />
     <type fullname="GameAnimation" preserve="all" />
     <type fullname="GameElementGuide" preserve="all" />
-    <type fullname="GameManager" preserve="all" />
     <type fullname="GameTableData.ConfAdCofig" preserve="all" />
     <type fullname="GameTableData.ConfAdCofig_Data" preserve="all" />
     <type fullname="GameTableData.ConfAdDisplay" preserve="all" />
@@ -52,11 +50,6 @@
     <type fullname="GameTableData.ConfSounds" preserve="all" />
     <type fullname="GameTableData.ConfSounds_Data" preserve="all" />
     <type fullname="GameWinAward" preserve="all" />
-    <type fullname="GooglePlayGamesAchievementManager" preserve="all" />
-    <type fullname="GooglePlayGamesFriendsManager" preserve="all" />
-    <type fullname="GooglePlayGamesInitializer" preserve="all" />
-    <type fullname="GooglePlayGamesLeaderboardManager" preserve="all" />
-    <type fullname="GooglePlayGamesSavedGameManager" preserve="all" />
     <type fullname="GuideDrawLine" preserve="all" />
     <type fullname="HomeIndicatorMover" preserve="all" />
     <type fullname="HomeIndicatorSizer" preserve="all" />
@@ -66,7 +59,6 @@
     <type fullname="Localization" preserve="all" />
     <type fullname="NotchMover" preserve="all" />
     <type fullname="NotchSizer" preserve="all" />
-    <type fullname="NotifPermission" preserve="all" />
     <type fullname="Outline8" preserve="all" />
     <type fullname="PageableView" preserve="all" />
     <type fullname="PanView" preserve="all" />
@@ -85,7 +77,6 @@
     <type fullname="Spine.Unity.SkeletonGraphic" preserve="all" />
     <type fullname="SubRemovalItem" preserve="all" />
     <type fullname="TextPreview" preserve="all" />
-    <type fullname="TimersManager" preserve="all" />
     <type fullname="TogglePro" preserve="all" />
     <type fullname="UIAdsRemoval" preserve="all" />
     <type fullname="UIAwardProps" preserve="all" />
@@ -157,16 +148,6 @@
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
   </assembly>
-  <assembly fullname="Unity.InputSystem, Version=1.14.2.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.InputSystem.InputActionAsset" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.InputActionReference" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.UI.InputSystemUIInputModule" preserve="all" />
-    <type fullname="UnityEngine.InputSystem.InputAction" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputActionMap" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputBinding" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.InputSystem.InputControlScheme/DeviceRequirement" preserve="nothing" serialized="true" />
-  </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AtlasSpriteProvider" preserve="all" />
@@ -196,14 +177,9 @@
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
-    <type fullname="UnityEngine.AudioListener" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.Camera" preserve="all" />
-    <type fullname="UnityEngine.FlareLayer" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
-    <type fullname="UnityEngine.LightingSettings" preserve="all" />
-    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.LineRenderer" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
     <type fullname="UnityEngine.Mesh" preserve="all" />
@@ -212,7 +188,6 @@
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
-    <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.ShaderVariantCollection" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
@@ -224,8 +199,8 @@
     <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.ParticleSystem" preserve="all" />
@@ -238,10 +213,7 @@
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
-    <type fullname="UnityEngine.UI.AspectRatioFitter" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
-    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
     <type fullname="UnityEngine.UI.GraphicRaycaster" preserve="all" />
     <type fullname="UnityEngine.UI.GridLayoutGroup" preserve="all" />
@@ -264,10 +236,10 @@
     <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
-    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Toggle/ToggleEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.FontData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.UI.Slider/SliderEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
