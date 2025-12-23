@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=450 height=800 tabindex="-1"></canvas>
+      <canvas id="unity-canvas" width=1080 height=1080 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -52,12 +52,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/3a6a75c79956855054b003c29dd20da9.loader.js";
+      var loaderUrl = buildUrl + "/a8a57ced40116c072091f7cacae1f234.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/7403ea6e585fb01a6f1ba2e56bc7cef1.data.br",
-        frameworkUrl: buildUrl + "/33d5d3fadb0c384549ae4fba2d954756.framework.js.br",
-        codeUrl: buildUrl + "/6224b37dfbbc60f7c7998159dd13258e.wasm.br",
+        dataUrl: buildUrl + "/e8a4efaaf2ddbb09e4a59174d942ee39.data.unityweb",
+        frameworkUrl: buildUrl + "/a58090ab216829fcb94004d1b518af39.framework.js.unityweb",
+        codeUrl: buildUrl + "/7507a328bc12d23ccf1e4d4770de57f7.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Showcai Games",
         productName: "WordCanvas",
@@ -104,8 +104,8 @@
 
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "450px";
-        canvas.style.height = "800px";
+        canvas.style.width = "1080px";
+        canvas.style.height = "1080px";
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
