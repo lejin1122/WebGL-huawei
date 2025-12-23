@@ -1,14 +1,14 @@
+/Build/*
+  Content-Encoding: br
+
 /Build/*.framework.js.br
   Content-Type: application/javascript; charset=utf-8
-  Content-Encoding: br
 
 /Build/*.loader.js
   Content-Type: application/javascript; charset=utf-8
 
 /Build/*.wasm.br
   Content-Type: application/wasm
-  Content-Encoding: br
 
 /Build/*.data.br
   Content-Type: application/octet-stream
-  Content-Encoding: br
